@@ -1,0 +1,500 @@
+   45  cd /tmp
+   46  gzip
+   47  gzip -h
+   48  gzip -d scmrepo201103.zip 
+   49  mv scmrepo201103.zip scmrepo201103.zip.gz
+   50  gzip -d scmrepo201103.zip.gz 
+   51  zip
+   52  unzip
+   53  unzip scmrepo201103.zip.gz 
+   54  split
+   55  split -help
+   56  cd a
+   57  ls
+   58  split -help
+   59  split --h
+   60  unsplit
+   61  merge
+   62  man split
+   63  ls
+   64  cat x00 x02 x04 x06 x08 x10 x12 x14 x16 x18 x20 x22 x24 x26 x28 x30 x32 x34 x36 x38 x40 x42 x44 x46 x48 x50 x52 x01 x03 x05 x07 x09 x11 x13 x15 x17 x19 x21 x23 x25 x27 x29 x31 x33 x35 x37 x39 x41 x43 x45 x47 x49 x51 > big.tar
+   65  ls
+   66  ls-la
+   67  ls -la
+   68  rm big.tar 
+   69  cat x00 x01 x02 x03 x04 x05 x06 x07 x08 x09 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39 x40 x41 x42 x43 x44 x45 x46 x47 x48 x49 x50 x51 x52  > big.tar
+   70  tar xcf big.tar 
+   71  tar xvf big.tar 
+   72  cd /a/aJavaRepository/SCM-ALL
+   73  ls
+   74  cd scmrepo201103/
+   75  /a/JarFileRep/bin/findAndUnjar.sh 
+   76  /a/JarFileRep/bin/findAndUnjar.sh 
+   77  cd /tmp
+   78  ls
+   79  rm -r postgresql-2011-05-1*
+   80  upost
+   81  cd /a/aJavaRepository/SCM-ALLls
+   82  ls
+   83  cd /a/aJavaRepository/SCM-ALL/scmrepo-20101125
+   84  /a/JarFileRep/bin/findAndUnjar.sh 
+   85  cd /a/aJavaRepository/SCM-ALL/scmrepo-201105
+   86  /a/JarFileRep/bin/findAndUnjar.sh 
+   87  /a/JarFileRep/bin/findAndUnjar.sh 
+   88  /a/JarFileRep/bin/findAndUnjar.sh 
+   89  ls
+   90  cd qmt-2.5/
+   91  ls
+   92  rm *.jar
+   93  rm *.war*
+   94  cd sr-qmt-module-ear-2.5.10.0_27
+   95  cd /tmp
+   96  ls
+   97  open t4.xls 
+   98  usrpost
+   99  postusr
+  100  alias
+  101  upost
+  102  which R
+  103  open ~/.rstudio-desktop/log/ 
+  104  cd /usr/bin/R
+  105  cd /usr/bin
+  106  ls
+  107  cd R
+  108  lsR
+  109  ls R
+  110  ls -la R
+  111  cd /Library/Frameworks/R.framework/Resources/bin/R
+  112  r
+  113  history
+  114  cd /a/aJavaRepository/SCM-ALL/scmrepo201107/
+  115  /a/JarFileRep/bin/findAndUnjar.sh 
+  116  /a/JarFileRep/bin/findAndUnjar.sh 
+  117  cd /a/JarFileRep/scripts/
+  118  cat /a/JarFileRep/scripts/UpdateApplPrefix-1.sql  /a/JarFileRep/scripts/UpdateJarFileProduct-SR-3.sql
+  119  cat /a/JarFileRep/scripts/UpdateApplPrefix-1.sql  /a/JarFileRep/scripts/UpdateJarFileProduct-SR-3.sql
+  120  sertClasses2Techstack-1.sql
+  121  sertJarfile2Techstack-1.sql
+  122  sertApplPrefix2Techstack-1.sql
+  123            
+  124    /a/JarFileRep/scripts/DeleteInsertTgad2Jarfile.sql
+  125              
+  126      
+  127   /a/JarFileRep/scripts/UpdateTgad2JarfileIs-NewestFlag-1.sql
+  128            
+  129    /a/JarFileRep/scripts/DeleteInsertClasses2LayerUsing.sql
+  130           
+  131    /a/JarFileRep/scripts/DeleteInsertJarfile2LayerUsing.sql
+  132          cat /a/JarFileRep/scripts/UpdateApplPrefix-1.sql  /a/JarFileRep/scripts/UpdateJarFileProduct-SR-3.sql
+  133  sertClasses2Techstack-1.sql
+  134  sertJarfile2Techstack-1.sql
+  135    /a/JarFileRep/scripts/DropInsertApplPrefix2Techstack-1.sql
+  136              /a/JarFileRep/scripts/DeleteInsertTgad2Jarfile.sql
+  137              
+  138       /a/JarFileRep/scripts/UpdateTgad2JarfileIs-NewestFlag-1.sql
+  139            
+  140    /a/JarFileRep/scripts/DeleteInsertClasses2LayerUsing.sql
+  141             /a/JarFileRep/scripts/DeleteInsertJarfile2LayerUsing.sql
+  142  cat /a/JarFileRep/scripts/UpdateApplPrefix-1.sql  /a/JarFileRep/scripts/UpdateJarFileProduct-SR-3.sql /a/JarFileRep/scripts/DropInsertClasses2Techstack-1.sql /a/JarFileRep/scripts/DropInsertJarfile2Techstack-1.sql  /a/JarFileRep/scripts/DropInsertApplPrefix2Techstack-1.sql           /a/JarFileRep/scripts/DeleteInsertTgad2Jarfile.sql     /a/JarFileRep/scripts/UpdateTgad2JarfileIs-NewestFlag-1.sql            /a/JarFileRep/scripts/DeleteInsertClasses2LayerUsing.sql /a/JarFileRep/scripts/DeleteInsertJarfile2LayerUsing.sql > all.sql
+  143  edit all.sql 
+  144  cd /a/aJavaRepository/SCM-ALL
+  145  cd /a
+  146  cd..
+  147  cd ..
+  148  cd ..
+  149  cd a
+  150  cd/a
+  151  cd /Volumes/hd2/a/aJavaRepository/SCM-ALL/PUMA 
+  152  cd ..
+  153  find . -name "*.property" -exec grep password {} \; -print 
+  154  find . -name "*.properties" -exec grep password {} \; -print 
+  155  find . -name "doc.properties" -exec grep password {} \; -print 
+  156  find . -name "doc.properties" -print 
+  157  cd/usr
+  158  cd /usr
+  159  cd lib
+  160  ls
+  161  ls libcup
+  162  ls libcup*
+  163  ls-ka libcup*
+  164  ls -ka libcup*
+  165  ls -la libcup*
+  166  cp libcups.2.dylib /Applications/RawTherapee.app/Contents/MacOS/lib/libcups.dylib
+  167  cd /tmp
+  168  ls
+  169  cd /Applications/RawTherapee.app/Contents/MacOS/lib/
+  170  ls
+  171  ls libycup
+  172  cp /tmp/libiconv.2.dylib ./
+  173  ls
+  174  ping google.com
+  175  tracert google.com
+  176  tracrt google.com
+  177  traceroute google.com
+  178  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  179  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  180  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  181  ping localhost
+  182  traceroute google.com
+  183  chown root:wheel /
+  184  chmod 755 /
+  185  ls -ld /
+  186  cd /usr
+  187  ls
+  188  cd etc/
+  189  ls
+  190  cd default/
+  191  ls
+  192  su
+  193  mount
+  194  mount volume "afp://TimeMachine: tamara@192.168.1.41"
+  195  mount -t afp "afp://TimeMachine: tamara@192.168.1.41"
+  196  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/QNasTimeMachine
+  197  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/TMBackup
+  198  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/TMBackup
+  199  mkdir /Volumes/QNasTimeMachine
+  200  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/QNasTimeMachine/
+  201  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/QNasTimeMachine
+  202  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/QNasTimeMachine
+  203  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/TMBackup
+  204  ls /Volumes/
+  205  ls /Volumes/QNasTimeMachine/
+  206  ls
+  207  cd distcc 
+  208  ls -la
+  209  df
+  210  cd /Volumes/Time\ Machine\ Backups/
+  211  ks
+  212  ls
+  213  cd /Volumes/TMBackup/
+  214  mount -t afp afp://TimeMachine:tamara@192.168.1.41 /Volumes/TMBackup
+  215   ls -ld /
+  216  cd /
+  217  ls
+  218   ls -ld 
+  219  cd ?
+  220  cd /
+  221   ls -ld 
+  222  sudo -s
+  223  duct-SR-3.sql
+  224  sertClasses2Techstack-1.sql
+  225  sertJarfile2Techstack-1.sql
+  226    /a/JarFileRep/scripts/DropInsertApplPrefix2Techstack-1.sql
+  227              /a/JarFileRep/scripts/DeleteInsertTgad2Jarfile.sql
+  228              
+  229       /a/JarFileRep/scripts/UpdateTgad2JarfileIs-NewestFlag-1.sql
+  230            
+  231    /a/JarFileRep/scripts/DeleteInsertClasses2LayerUsing.sql
+  232             /a/JarFileRep/scripts/DeleteInsertJarfile2LayerUsing.sql
+  233  cat /a/JarFileRep/scripts/UpdateApplPrefix-1.sql  /a/JarFileRep/scripts/UpdateJarFileProduct-SR-3.sql /a/JarFileRep/scripts/DropInsertClasses2Techstack-1.sql /a/JarFileRep/scripts/DropInsertJarfile2Techstack-1.sql  /a/JarFileRep/scripts/DropInsertApplPrefix2Techstack-1.sql           /a/JarFileRep/scripts/DeleteInsertTgad2Jarfile.sql     /a/JarFileRep/scripts/UpdateTgad2JarfileIs-NewestFlag-1.sql            /a/JarFileRep/scripts/DeleteInsertClasses2LayerUsing.sql /a/JarFileRep/scripts/DeleteInsertJarfile2LayerUsing.sql > all.sql
+  234  edit all.sql 
+  235  cd /a/aJavaRepository/SCM-ALL
+  236  cd /a
+  237  cd..
+  238  cd ..
+  239  cd ..
+  240  cd a
+  241  cd/a
+  242  cd /Volumes/hd2/a/aJavaRepository/SCM-ALL/PUMA 
+  243  cd ..
+  244  find . -name "*.property" -exec grep password {} \; -print 
+  245  find . -name "*.properties" -exec grep password {} \; -print 
+  246  find . -name "doc.properties" -exec grep password {} \; -print 
+  247  find . -name "doc.properties" -print 
+  248  cd/usr
+  249  cd /usr
+  250  cd lib
+  251  ls
+  252  ls libcup
+  253  ls libcup*
+  254  ls-ka libcup*
+  255  ls -ka libcup*
+  256  ls -la libcup*
+  257  cp libcups.2.dylib /Applications/RawTherapee.app/Contents/MacOS/lib/libcups.dylib
+  258  cd /tmp
+  259  ls
+  260  cd /Applications/RawTherapee.app/Contents/MacOS/lib/
+  261  ls
+  262  ls libycup
+  263  cp /tmp/libiconv.2.dylib ./
+  264  ls
+  265  ping google.com
+  266  tracert google.com
+  267  tracrt google.com
+  268  traceroute google.com
+  269  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  270  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  271  /Applications/iPodDisk.app/Contents/MacOS/iPodDisk ; exit;
+  272  ping localhost
+  273  traceroute google.com
+  274  chown root:wheel /
+  275  chmod 755 /
+  276  ls -ld /
+  277  upost
+  278  upost
+  279  cd /a
+  280  ls
+  281  cd
+  282  ls
+  283  cd/
+  284  cd /
+  285  ls
+  286  ln -s /Volumes/hd9/a a
+  287  ls
+  288  cd /a/aJavaRepository/SCM-ALL/scmrepo201108
+  289  /a/JarFileRep/bin/findAndUnjar.sh
+  290  /a/JarFileRep/bin/findAndUnjar.sh
+  291  /a/JarFileRep/bin/findAndUnjar.sh
+  292  cd /a/opencvs/
+  293  ks
+  294  ls
+  295  chmod -R 777 *
+  296  ls -la
+  297  cd ..
+  298  cd Regina/
+  299  chmod -R 777 *
+  300  cd /tmp
+  301  ls
+  302  ls -la
+  303  tail postgresql-2011-10-25_210032.log 
+  304  ps
+  305  ps -ax
+  306  top
+  307  su
+  308  cd /
+  309  man ln
+  310  man ln
+  311  ln -s usrdb /Volumes/hd9/usrdb
+  312  ln -s /usrdb /Volumes/hd9/usrdb
+  313  ln -s /Volumes/hd9/usrdb /usrdb
+  314  cd /usrdb
+  315  ls
+  316  ls -la
+  317  su
+  318  upost
+  319  upost
+  320  su - postgres -c "/Library/PostgreSQL/8.1/bin/pg_ctl stop -D /usr/data/Postgres9.1/data -m fast" > /tmp/pgmsg.txt 2>&1
+  321  upost
+  322  upost
+  323  cd /tmp
+  324  tar xvf scmrepo201112.tar /Volumes/hd9/a/aJavaRepository/SCM-ALL/scmrepo201112
+  325  tar tvf scmrepo201112.tar 
+  326  tar xvf scmrepo201112.tar /Volumes/hd9/a/aJavaRepository/SCM-ALL/
+  327  man tar
+  328  tar xvf scmrepo201112.tar /a/aJavaRepository/SCM-ALL/
+  329  tar -xvf scmrepo201112.tar /a/aJavaRepository/SCM-ALL/
+  330  tar -xvf scmrepo201112.tar 
+  331  cd /Volumes/hd9/a/aJavaRepository/SCM-ALL/scmrepo201112
+  332  /a/JarFileRep/bin/findAndUnjar.sh 
+  333  /a/JarFileRep/bin/findAndUnjar.sh 
+  334  cd /a/JarFileRep-Archive/
+  335  ls
+  336  tar tf post-backup-9.1-20111231.backup
+  337  df
+  338  cd /a/aJavaRepository/SCM-ALL/
+  339  ls
+  340  more LTPA-20120217.txt 
+  341  more LTPA-20120217.txt 
+  342  git
+  343  git clone https://github.com/maccman/spine.contacts.git 
+  344  ls
+  345  cd /a
+  346  cd aJavaRepository/
+  347  ls
+  348  cd SCM-ALL/
+  349  find . -name "*" -exec grep -l "LtpaToken" '{}' \; > LTPA-20120217.txt
+  350  ftp
+  351  cd /a
+  352  cd JarFileRep
+  353  ls
+  354  ls bin
+  355  cd bin
+  356  ls -la
+  357  cd /Volumes/hd9/a/aJavaRepository/SCM-ALL/scmrepo201203/scmrepo201202-1
+  358  ls
+  359  /a/JarFileRep/bin/findAndUnjar.sh 
+  360  cd ..
+  361  /a/JarFileRep/bin/findAndUnjar.sh 
+  362  /a/JarFileRep/bin/findAndUnjar.sh 
+  363  upost
+  364  defaults read /Applications/Safari.app/Contents/Info LSEnvironment
+  365  defaults read ~/.MacOSX/environment DYLD_INSERT_LIBRARIES
+  366  cd /Volumes/hd9/a/sonar/sonar-2.1.2/bin/macosx-universal-64
+  367  ls
+  368  ./sonar.sh 
+  369  ./sonar.sh start
+  370  ls
+  371  cd WebSite-bellert/
+  372  ks
+  373  ls
+  374  find . -name "*.html" -print
+  375  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} -print 
+  376  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  377  find . -name "*.html" -exec java job.AddMetaRobotLine2Html.class {} \; -print 
+  378  set CLASSPATH=./
+  379  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  380  set CLASSPATH=/a/MyHelper/bin
+  381  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  382  set
+  383  export CLASSPATH=/a/MyHelpers/bin
+  384  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  385  more ./_/wedding/pages/Wedding-Reception2.1.html
+  386  ls
+  387  cd _/
+  388  ls
+  389  ls
+  390  ls
+  391  ls
+  392  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  393  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print 
+  394  find . -name "*.html" -exec java job.AddMetaRobotLine2Html {} \; -print | grep 4097_large.html
+  395  more ./photo/2012 Jolanda-Dancing-Ballon/content/DSC_4097_large.html
+  396  more ./photo/"2012 Jolanda-Dancing-Ballon"/content/DSC_4097_large.html
+  397  node
+  398  cd /usr/bin/
+  399  ls
+  400  wheris node
+  401  where node
+  402  whereis node
+  403  ls -la
+  404  npm
+  405  cd /usr/local/lib
+  406  ls
+  407  cd node
+  408  ls
+  409   ls wafadmin/
+  410   cd ..
+  411  ls
+  412   cd node_modules/
+  413  ls
+  414   cd /a/node
+  415  node server1.js 
+  416  npm install pg
+  417  node pg1.js 
+  418  npm install sequelize
+  419  ls
+  420  cat server1.js 
+  421  node server1.js 
+  422  node pg1.js 
+  423  node pg1.js 
+  424  /Applications/memtest/memtest ; exit;
+  425  whereis java
+  426  cd /usr/bin/java
+  427  ls
+  428  cd /usr/bin/
+  429  ls
+  430   ls -la java
+  431  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java
+  432  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands
+  433  ls
+  434  ls -la java
+  435  cd ..
+  436  ls
+  437   cd ..
+  438  ls
+  439  ls -la
+  440  gdb
+  441  cd /a/scm
+  442  ls
+  443  tar -xMv --file=tardisk
+  444  tar xMvf tardisk
+  445  tar xvf tardisk
+  446  tar xvf tardisk00
+  447  tar xvfM tardisk
+  448  tar xvfM tardisk00
+  449  cd .. 
+  450  cd /tmp
+  451  ls
+  452  cd tscm/
+  453  cat taruzipdisk.tar0* | tar xpvf -
+  454  cd /Volumes/hd9/a/aJavaRepository/SCM-ALL/scmrepo20120926/ycr/ycr-ear/1.0.03
+  455  ls
+  456  ls
+  457  cat ycr-web-1.0.03.war.xml
+  458  cd /tmp 
+  459  java -jar ha437.jar 
+  460  cp ha437.jar /a/IbmHeapDump/ha4.3.7/
+  461  cd /Volumes/hd9/a/IbmHeapDump/ha4.3.7/ha.sh
+  462  cd /Volumes/hd9/a/IbmHeapDump/ha4.3.7
+  463  ls
+  464  chmod u+x ha.sh
+  465  ./ha.sh 
+  466  upost
+  467  upost
+  468  cd /a/aJavaRepository/
+  469  ls
+  470  find . -exec grep "davisor" {}\; -print
+  471  find . -exec grep davisor {}\; -print
+  472  find . -exec grep davisor {} \; -print
+  473  find . -name "*ar.xml" -exec grep davisor {} \; -print
+  474  ipconfig 
+  475  ipconfig ifcount
+  476  ipconfig getifaddr
+  477  upost
+  478  ls /Users/Shared/fotis/SeverinFest2012-Catalog/web-sneak-preview/sevi
+  479  history
+  480  cd /Users/Shared/fotis/SeverinFest2012-Catalog/web-sneak-preview/sevi
+  481  /a/MyHelpers/
+  482  /a/MyHelpers/run.sh 
+  483  /a/MyHelpers/run.sh 
+  484  set
+  485  EXPORT CLASSPATH=/Volumes/hd9/a/MyHelpers/bin
+  486  export CLASSPATH=/Volumes/hd9/a/MyHelpers/bin
+  487  echo $CLASSPATH
+  488  /a/MyHelpers/run.sh 
+  489  cd /a/MyHelpers/
+  490  ls
+  491  chmod x+u run.sh 
+  492  chmod u+x run.sh 
+  493  history grep classpath
+  494  /Applications/pentaho/start.command ; exit;
+  495  cd /Volumes/hd9/a/aJavaRepository/SCM-ALL/scmrepo201212/b2e/sr-b2e-ear
+  496  ls
+  497  find . -name "*.jar" -print
+  498  find . -name "*struts*" -print
+  499  upost
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd ~/.ssh
+  504  ls
+  505  mkdir key_backup
+  506  ssh-keygen -t rsa -C "craftofobjects@gmail.com"
+  507  pbcopy < ~/.ssh/id_rsa.pub 
+  508  pbcopy < ~/.ssh/id_rsa.pub 
+  509  cd /a/heroku/
+  510  ls
+  511  heroku login
+  512  heroku ps
+  513  heroku --app APP
+  514  heroku --app 
+  515  heroku apps
+  516  heroku addons:add mongolab
+  517  heroku --help
+  518  heroku status
+  519  git push heroku master
+  520  foreman start
+  521  echo 'web: node web.js' > Procfile
+  522  cat Procfile 
+  523  foreman start
+  524  foreman start
+  525  foreman start
+  526  cd myapp/
+  527  ls
+  528  npm install
+  529  ls ../
+  530  node web.js 
+  531  foreman start
+  532  git init
+  533  git add .
+  534  git commit -m "init"
+  535  git push heroku master
+  536  heroku create
+  537  git push heroku master
+  538  git push heroku master
+  539  heroku logout
+  540  heroku login
+  541  git push heroku master
+  542  heroku keys:add ~/.ssh/id_rsa.pub
+  543  git push heroku master
+  544  history > history.txt
